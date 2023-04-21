@@ -1,6 +1,6 @@
 import { Grid } from "./grid.js";
 import { Tile } from "./tile.js";
-
+alert('Господа проверяющее , управление игрой идет посредством стрелочек на клавиатуре')
 const gameBoard = document.getElementById("game-board");
 
 const grid = new Grid(gameBoard);
